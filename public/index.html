@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Benvenuto/a</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background: #f0f0f0;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .video-container {
+      margin-top: 2rem;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 720px;
+      height: 400px;
+      border: none;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="welcome">Accesso in corso...</h1>
+  <div class="video-container" id="videos" style="display:none;">
+    <button id="btn-logout" style="display:none;">Logout</button>
+    <!-- Video Vimeo verranno mostrati qui -->
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
