@@ -46,6 +46,7 @@ function mostraVideo() {
 
   // Inserisci qui i tuoi iframe Vimeo
   const video1 = `<iframe src="https://vimeo.com/1088019389/1036aa696c" allow="autoplay; fullscreen" allowfullscreen></iframe>`;
+const btnlogout = `<button id="btn-logout">Logout</button>`;
   
-  videosDiv.innerHTML = video1;
+  videosDiv.innerHTML = video1 + btnlogout;
 }
